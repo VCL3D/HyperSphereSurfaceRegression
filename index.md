@@ -15,4 +15,4 @@ present the practical applicability of our trained model on a spherical image re
 qualitatively showing the promising generalization ability of our dataset and model.
 
 # Paper
-
+![https://arxiv.org/](./assets/img/paper_thumb.png "paper link")
