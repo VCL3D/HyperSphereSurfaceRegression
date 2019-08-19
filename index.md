@@ -28,7 +28,7 @@ qualitatively showing the promising generalization ability of our dataset and mo
 </p>
 
 <h1 align="center"> Data </h1>
-<h1 align="center"> Models </h1>
+<h1 align="center"> Model </h1>
 <h1 align="center"> Citation </h1>
 <p style="
     width: auto;
