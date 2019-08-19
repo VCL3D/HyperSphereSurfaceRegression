@@ -6,7 +6,7 @@
 
 <h1 align="center"> Abstract </h1>
 
-Omnidirectional vision is becoming increasingly relevant as more efficient 360o image acquisition is now possible.
+Omnidirectional vision is becoming increasingly relevant as more efficient 360<sup>o</sup> image acquisition is now possible.
 However, the lack of annotated 360<sup>o</sup> datasets has hindered the application of deep learning techniques on spherical content. 
 This is further exaggerated on tasks where ground truth acquisition is difficult, such as monocular surface estimation. 
 While recent research approaches on the 2D domain overcome this challenge by relying on generating normals from depth cues 
