@@ -13,3 +13,6 @@ We achieve this by minimizing a novel angular loss function defined on the hyper
 We put an effort to appropriately compare with other state of the art methods trained on planar datasets and finally, 
 present the practical applicability of our trained model on a spherical image re-lighting task using completely unseen data by 
 qualitatively showing the promising generalization ability of our dataset and model.
+
+# Paper
+
