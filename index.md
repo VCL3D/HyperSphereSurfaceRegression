@@ -26,3 +26,20 @@ qualitatively showing the promising generalization ability of our dataset and mo
 <p align="center">
   <img src="./assets/img/paper_thumb_small.png">
 </p>
+
+<h1 align="center"> Data </h1>
+<h1 align="center"> Models </h1>
+<h1 align="center"> Citation </h1>
+<p style="
+    width: auto;
+    background-color: #f2f2f2;
+    font-size: small;
+">
+  <pre>
+    <code>
+      @inproceedings{
+        karakottas2019Surface
+      }
+    </code>
+  </pre>
+</p>
