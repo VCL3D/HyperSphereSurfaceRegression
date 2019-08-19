@@ -1,6 +1,11 @@
-![](./assets/img/qual_samples.jpg "Qualitative results on a sample of the 360IndoorsDataset test-set")
 
-# Abstract
+<p align="center">
+  <img src = "./assets/img/qual_samples.jpg" alt="Qualitative Results" width="500"/>
+</p>
+
+
+<h1 align="center"> Abstract </h1>
+
 Omnidirectional vision is becoming increasingly relevant as more efficient 360o image acquisition is now possible.
 However, the lack of annotated 360<sup>o</sup> datasets has hindered the application of deep learning techniques on spherical content. 
 This is further exaggerated on tasks where ground truth acquisition is difficult, such as monocular surface estimation. 
@@ -14,7 +19,8 @@ We put an effort to appropriately compare with other state of the art methods tr
 present the practical applicability of our trained model on a spherical image re-lighting task using completely unseen data by 
 qualitatively showing the promising generalization ability of our dataset and model.
 
-# Paper
+<h1 align="center"> Paper </h1>
+
 <p align="center">
   <img src="./assets/img/paper_thumb_small.png">
 </p>
