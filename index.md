@@ -1,5 +1,5 @@
 
-<p align="center">
+<p align="left">
   <img src = "./assets/img/360HyperSphereBanner.png" alt="Qualitative Results" width="800"/>
 </p>
 
