@@ -1,6 +1,6 @@
 
 <p align="left">
-  <img src = "./assets/img/360HyperSphereBanner.png" alt="Qualitative Results" width="800"/>
+  <img src = "./assets/img/360HyperSphereBanner.png" alt="Qualitative Results" width="1000"/>
 </p>
 
   | Loss Functions | Mean | Median | RMSE | 5<sup>o</sup> | 11.25<sup>o</sup> | 22.5<sup>o</sup> | 30<sup>o</sup>|
