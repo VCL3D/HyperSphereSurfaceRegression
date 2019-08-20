@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-<table>
+<table align="center">
   <tr>
     <th>Loss Function</th>
     <th>Mean</th>
