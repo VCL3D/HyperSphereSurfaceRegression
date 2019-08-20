@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src = "./assets/img/qual_samples.jpg" alt="Qualitative Results" width="500"/>
+  <img src = "./assets/img/360HyperSphereBanner.png" alt="Qualitative Results" width="800"/>
 </p>
 
 
