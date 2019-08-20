@@ -3,60 +3,14 @@
   <img src = "./assets/img/360HyperSphereBanner.png" alt="Qualitative Results" width="800"/>
 </p>
 
-<p align="center">
-<table align="center">
-  <tr>
-    <th>Loss Function</th>
-    <th>Mean</th>
-    <th>Median</th>
-    <th>RMSE</th>
-    <th>5<sup>o</sup></th>
-    <th>11.25<sup>o</sup></th>
-    <th>22.5<sup>o</sup></th>
-    <th>30<sup>o</sup></th>
-  </tr>
-  <tr>
-    <th>L<sub>2</sub></th>
-    <th>7.72</th>
-    <th>7.23</th>
-    <th>8.39</th>
-    <th>73.55</th>
-    <th>79.88</th>
-    <th>87.72</th>
-    <th>90.43</th>
-  </tr>
-  <tr>
-    <th>Cosine</th>
-    <th>7.63</th>
-    <th>7.14</th>
-    <th>8.31</th>
-    <th>73.89</th>
-    <th>80.04</th>
-    <th>87.29</th>
-    <th>90.48</th>
-  </tr>
-  <tr>
-    <th>Quaternion</th>
-    <th>7.24</th>
-    <th>6.72</th>
-    <th>7.98</th>
-    <th>75.8</th>
-    <th>80.59</th>
-    <th>87.3</th>
-    <th>90.37</th>
-  </tr>
-  <tr>
-    <th>Quaternion + Smooth</th>
-    <th>7.14</th>
-    <th>6.66</th>
-    <th>7.88</th>
-    <th>76.16</th>
-    <th>80.82</th>
-    <th>87.45</th>
-    <th>90.47</th>
-  </tr>
-</table>
-</p>
+  | Loss Functions | Mean | Median | RMSE | 5<sup>o</sup> | 11.25<sup>o</sup> | 22.5<sup>o</sup> | 30<sup>o</sup>|
+  |----------------|------|--------|------|---------------|-------------------|------------------|---------------|
+  | L<sub>2</sub>  | 7.72 | 7.23   | 8.39 | 73.55         | 79.88             |  87.72           |   90.43       |
+  | Cosine         | 7.63 | 7.14   | 8.31 | 73.89         | 80.04             |  87.29           |   90.48       |
+  | Quaternion     | 7.24 | 6.72   | 7.98 | 75.8          | 80.59             |  87.3            |   90.37       |
+  |Quaternion + Smooth|7.14| 6.66  | 7.88 | 76.16         | 80.82             | 87.45            |90.47          |
+
+
 
 <h1 align="center"> Abstract </h1>
 <p style="text-align: justify;">
