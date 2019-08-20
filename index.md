@@ -24,7 +24,9 @@ qualitatively showing the promising generalization ability of our dataset and mo
 <h1 align="center"> Paper </h1>
 
 <p align="center">
-  <img src="./assets/img/paper_thumb_small.png">
+  <a href="www.arxiv.org"?
+    <img src="./assets/img/paper_thumb_small.png" alt="Paper on Arxiv">
+  </a>
 </p>
 
 <h1 align="center"> Data </h1>
