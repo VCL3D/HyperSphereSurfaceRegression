@@ -1,14 +1,16 @@
 
-<img src = "./assets/img/360HyperSphereBanner.png" alt="Qualitative Results" width="1000"/>
+<p align="center">
+  <img src = "./assets/img/360HyperSphereBanner.png" alt="Qualitative Results" width="100%"/>
+</p>
 
-
+<p align="center">
 | Loss Functions | Mean | Median | RMSE | 5<sup>o</sup> | 11.25<sup>o</sup> | 22.5<sup>o</sup> | 30<sup>o</sup>|
 |----------------|------|--------|------|---------------|-------------------|------------------|---------------|
 | L<sub>2</sub>  | 7.72 | 7.23   | 8.39 | 73.55         | 79.88             |  87.72           |   90.43       |
 | Cosine         | 7.63 | 7.14   | 8.31 | 73.89         | 80.04             |  87.29           |   90.48       |
 | Quaternion     | 7.24 | 6.72   | 7.98 | 75.8          | 80.59             |  87.3            |   90.37       |
 |Quaternion + Smooth|7.14| 6.66  | 7.88 | 76.16         | 80.82             | 87.45            |90.47          |
-
+</p>
 
 
 <h1 align="center"> Abstract </h1>
