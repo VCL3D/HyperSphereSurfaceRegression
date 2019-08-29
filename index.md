@@ -105,7 +105,13 @@ qualitatively showing the promising generalization ability of our dataset and mo
 ">
   <pre>
     <code>
-      Coming Soon...
+      @inproceedings{karakottas2019360surface,
+        author      = "Karakottas, Antonis and Zioulis, Nikolaos and Samaras, Stamatis and Ataloglou, Dimitrios and Gkitsas, Vasileios and Zarpalas, Dimitrios and Daras, Petros",
+        title       = "360 Surface Regression with a Hyper-Sphere Loss",
+        booktitle   = "International Conference on 3D Vision",
+        month       = "September",
+        year        = "2019"
+      }
     </code>
   </pre>
 </p>
