@@ -44,15 +44,14 @@ $$
  
 </p>
 <p style="text-align: justify;">
-  <MATH>
-    In addition, because <b>q<sub>1</sub></b> and <b>q<sub>2</sub></b> are pure quaternions: <b>q<sup>-1</sup></b> = -<b>q</b>, and:
-  </MATH>
+    In addition, because $$ \textbf{q}_1 $$ and $$ \textbf{q}_2 $$ are pure quaternions: $$ \textbf{q}^{-1} = -\textbf{q} $$, and:
 </p>
-<p align="center" style="text-align: justify;">
-  <MATH>
-    <b>q<sub>1</sub></b><b>q<sub>1</sub><sup>*</sup></b> = <b>q<sub>1</sub></b> &sdot; <b>q<sub>2</sub></b> - <b>q<sub>1</sub></b> x <b>q<sub>2</sub></b>
-  </MATH>
-</p>  
+$$
+  \begin{align*}
+    \textbf{q}_1 \textbf{q}_2 = \textbf{q}_1 \cdot \textbf{q}_2 - \textbf{q}_1 \times \textbf{q}_2
+  \end{align*}
+$$
+  
 <p style="text-align: justify;">
   <MATH>
     Finally, the rotation angle of the transition quaternion (and therefore the angular difference between <b>n&#x0302<sub>1</sub></b> and <b>n&#x0302<sub>2</sub></b>) is calculated by the inverse tangent between the real and the imaginary parts of the transition quaternion, which are reduced to their dot and cross product, due to being unit quaternions:
