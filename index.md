@@ -125,13 +125,10 @@ $$
 </p>
 
 
-
-
-
 <h1 align="center"> Data </h1>
 
 <p style="test-aligh: justify;">
-  The 360<sup>o</sup> data used to train our model are available <a href="vcl3d.github.io/3D60">here</a> and are part of a larger dataset ... that composed of color images, depth, and surface normal maps for each viewpoint in a trinocular setup.
+  The 360<sup>o</sup> data used to train our model are available <a href="vcl3d.github.io/3D60">here</a> and are part of a larger dataset ... that is composed of color images, depth, and surface normal maps for each viewpoint in a trinocular setup.
 </p>
 
 <h1 align="center"> Code </h1>
@@ -176,6 +173,26 @@ $$
 </p>
 
 <h1 align="center"> Acknowledgements </h1>
+<p style="text-align: justify;">
+  We thank the anonymous reviewers for their helpuful comments.
+</p>
+<p style="text-align: justify;">
+  The project has received funding from the European Union's <font color="blue"><b> Horizon 2020 </b></font> research and innovation programme <font color="blue"><b>Hyper360</b></font> under grant agreement <font color="blue">No. 761934</font>.
+</p>
+<p style="text-align: justify;">
+  We would like to thank <font color="green"><b>NVIDIA</b></font> for supporting our research with the donation of an NVIDIA Titan Xp GPU through the <font color="green">NVIDIA GPU Grant Program</font>.
+</p>
+<p align="center">
+  <div style="padding-bottom: 10px;">
+    <img src="./assets/img/eu_comm_logo.png" width="32%" style="float: left; right-margin: 3%;">
+  </div>
+  <div>
+    <img src="./assets/img/Logo-Hyper360_2017.10.03_DEF.png" width="20%" style="float: left; right-margin: 3%;">
+  </div>
+  <div>
+    <img src="./assets/img/LogoNvidia.png" width="32%" style="float: left; right-margin: 3%;">
+  </div>
+</p>
 
 <h1 align="center"> References </h1>
 
