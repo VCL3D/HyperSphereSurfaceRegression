@@ -128,7 +128,7 @@ $$
 <h1 align="center"> Data </h1>
 
 <p style="test-align: justify;">
-  The 360<sup>o</sup> data used to train our model are available <a href="vcl3d.github.io/3D60">here</a> and are part of a larger dataset [...,...], which is composed of color images, depth, and surface normal maps for each viewpoint in a trinocular setup.
+  The 360<sup>o</sup> data used to train our model are available <a href="vcl3d.github.io/3D60">here</a> and are part of a larger dataset [<a href="#refOmnidepth">1</a>,2], which is composed of color images, depth, and surface normal maps for each viewpoint in a trinocular setup.
 </p>
 
 <h1 align="center"> Code </h1>
@@ -198,7 +198,7 @@ $$
   We would like to thank <font color="green"><b>NVIDIA</b></font> for supporting our research with the donation of an NVIDIA Titan Xp GPU through the <font color="green">NVIDIA GPU Grant Program</font>.
 </p>
 <p align="center">
-  <div style="padding-bottom: 4px;">
+  <div style="padding-bottom: 2px;">
     <img src="./assets/img/eu_comm_logo.png" width="32%" style="float: left; right-margin: 3%;">
   </div>
   <div>
@@ -210,6 +210,11 @@ $$
 </p>
 
 <h1 align="center"> References </h1>
+<p style="text-alignment: justify;">
+  <div id="refOmnidepth">
+     [<a href="https://arxiv.org/abs/1807.09620">1</a>] Zioulis, N., Karakottas, A., Zarpalas, D., Daras, P., (2018). Omnidepth: Dense depth estimation for indoors spherical panoramas. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 448-465).
+  </div>
+</p>
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
