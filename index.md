@@ -127,18 +127,30 @@ $$
 
 <h1 align="center"> Data </h1>
 
-<p style="test-aligh: justify;">
-  The 360<sup>o</sup> data used to train our model are available <a href="vcl3d.github.io/3D60">here</a> and are part of a larger dataset ... that is composed of color images, depth, and surface normal maps for each viewpoint in a trinocular setup.
+<p style="test-align: justify;">
+  The 360<sup>o</sup> data used to train our model are available <a href="vcl3d.github.io/3D60">here</a> and are part of a larger dataset [...,...], which is composed of color images, depth, and surface normal maps for each viewpoint in a trinocular setup.
 </p>
 
 <h1 align="center"> Code </h1>
 <p style="text-align: justify;">
   Our training and testing code that can be used to reproduce our experiments can be found at the corresponding <a href="https://github.com/VCL3D/HyperSphereSurfaceRegression">Github repository</a>.
 </p>
-
+<p style="text-align: justify;">
+  <ul>
+    <li>
+      <code>train.py</code> for model training .
+    </li>
+    <li>
+      <code>test.py</code> for testing a trained model.
+    </li>
+    <li>
+      <code>infer.py</code>
+    </li>
+  </ul>
+</p>
 <h2 align="center"> Pre-trained model </h2>
-<p align="center">
-  Coming Soon...
+<p style="text-align: justify;">
+  Our <b>PyTorch</b> pre-trained weights (trained for 50 epochs) are released <a href="https://github.com/VCL3D/HyperSphereSurfaceRegression/releases"> here</a>.
 </p>
 
 
