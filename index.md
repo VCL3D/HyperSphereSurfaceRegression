@@ -84,9 +84,11 @@ qualitatively showing the promising generalization ability of our dataset and mo
 
 
 <h1 align="center"> Data </h1>
-<p align="center">
-  Coming Soon...
+
+<p align="center" style="test-aligh: justify;">
+  The 360<sup>o</sup> data used to train our model are available <a href="vcl3d.github.io/3D60">here</a> and are part of a larger dataset ... that composed of color images, depth, and surface normal maps for each viewpoint in a trinocular setup.
 </p>
+
 <h1 align="center"> Model </h1>
 <p align="center">
   Coming Soon...
