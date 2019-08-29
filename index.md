@@ -98,15 +98,11 @@ qualitatively showing the promising generalization ability of our dataset and mo
 </p>
 
 <h1 align="center"> Citation </h1>
-<p style="
-    width: auto;
-    background-color: #f2f2f2;
-    font-size: small;
-">
+<p style="width: auto; background-color: #f2f2f2; font-size: small;">
   <pre>
     <code>
       @inproceedings{karakottas2019360surface,
-        author      = "Karakottas, Antonis and Zioulis, Nikolaos and Samaras, Stamatis and Ataloglou, Dimitrios and Gkitsas, Vasileios and Zarpalas, Dimitrios and Daras, Petros",
+        author      = "Karakottas, Antonis and Zioulis, Nikolaos and Samaras, Stamatis and Ataloglou, Dimitrios and Gkitsas,              Vasileios and Zarpalas, Dimitrios and Daras, Petros",
         title       = "360 Surface Regression with a Hyper-Sphere Loss",
         booktitle   = "International Conference on 3D Vision",
         month       = "September",
