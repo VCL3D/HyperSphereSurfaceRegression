@@ -40,7 +40,7 @@ $$
 
 
 <p style="text-align: justify;">  
- Because $$ \textbf{q}_1 $$ and $$ \textbf{q}_2 $$ are unit quaternions: $$ \textbf{q}^{-1} = \conj{\texbf{q}} $$, where $$ \conj{\textbf{q}} $$ is the conjugate quaternion of $$ \textbf{q} $$. 
+ Because $$ \textbf{q}_1 $$ and $$ \textbf{q}_2 $$ are unit quaternions: $$ \textbf{q}^{-1} = \texbf{q}^* $$, where $$ \textbf{q}^* $$ is the conjugate quaternion of $$ \textbf{q} $$. 
  
 </p>
 <p style="text-align: justify;">
