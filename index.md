@@ -26,7 +26,7 @@ qualitatively showing the promising generalization ability of our dataset and mo
 <h1 align="center"> Angular Loss on the Hyper-Sphere </h1>
 
 <p style="text-align: justify;">
-  According to Euler's rotation theorem, a transformation of a fixed point $$ \textbf{p}(p_x, p_y, p_z) can be expressed as a rotation given by an angle $$\theta$$; around a fixed axis $$\textbf{u}(x, y, z) = x\hat{\textbf{i}} + y\hat{\textbf{j}} + z\hat{\textbf{k}} $$, that runs through $$ \textbf{p}$$. This kind of rotation can be easily represented by a unit quaternion $$ \textbf{q}(w, x, y, z).
+  According to Euler's rotation theorem, a transformation of a fixed point \$$ \textbf{p}(p_x, p_y, p_z) $$ can be expressed as a rotation given by an angle \$$ \theta $$; around a fixed axis \$$ \textbf{u}(x, y, z) = x\hat{\textbf{i}} + y\hat{\textbf{j}} + z\hat{\textbf{k}} $$, that runs through \$$ \textbf{p} $$. This kind of rotation can be easily represented by a unit quaternion \$$ \textbf{q}(w, x, y, z) $$.
 </p>
 <p style="text-align: justify;">
   Therefore, we can represent two normal vectors <MATH> <b>n&#x0302<sub>1</sub></b>(n<sub>1<sub>x</sub></sub>, n<sub>1<sub>y</sub></sub>, n<sub>1<sub>z</sub></sub>) and <b>n&#x0302<sub>2</sub></b>(n<sub>2<sub>x</sub></sub>, n<sub>2<sub>y</sub></sub>, n<sub>2<sub>z</sub></sub>) as the pure quaternions <b>q<sub>1</sub></b>(0, n<sub>1<sub>x</sub></sub>, n<sub>1<sub>y</sub></sub>, n<sub>1<sub>z</sub></sub>) and <b>q<sub>2</sub></b>(0, n<sub>2<sub>x</sub></sub>, n<sub>2<sub>y</sub></sub>, n<sub>2<sub>z</sub></sub>) respectively. Then their angular difference can be expressed by their transition quaternion [ref], which represents a rotation from <b>n&#x0302<sub>1</sub></b> to <b>n&#x0302<sub>2</sub></b>:</MATH>
