@@ -151,7 +151,7 @@ $$
   </ul>
 </p>
 <p style="text-align: justify;">
-  In order to train and test our model we use <code>settings files</code> in <code>.json</code> format. Template settings files can be found <a href="##">here</a>.
+  In order to train and test our model we use <code>settings files</code> in <code>.json</code> format. Template settings files for training and testing can be found <a href="##">here</a>.
 </p>
 <h2 align="center"> Pre-trained model </h2>
 <p style="text-align: justify;">
@@ -206,7 +206,7 @@ $$
   <div style="padding-bottom: 1px;">
     <img src="./assets/img/eu_comm_logo.png" width="32%" style="float: left; right-margin: 3%;">
   </div>
-  <div style="padding-top": 1px;>
+  <div style="padding-top: 1px";>
     <img src="./assets/img/Logo-Hyper360_2017.10.03_DEF.png" width="20%" style="float: left; right-margin: 3%;">
   </div>
   <div>
