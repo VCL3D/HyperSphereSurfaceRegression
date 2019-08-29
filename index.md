@@ -206,7 +206,7 @@ $$
   <div style="padding-bottom: 1px;">
     <img src="./assets/img/eu_comm_logo.png" width="32%" style="float: left; right-margin: 3%;">
   </div>
-  <div style="padding-top: 1px";>
+  <div style="padding-top: 1px;">
     <img src="./assets/img/Logo-Hyper360_2017.10.03_DEF.png" width="20%" style="float: left; right-margin: 3%;">
   </div>
   <div>
