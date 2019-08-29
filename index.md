@@ -186,7 +186,7 @@ $$
   We would like to thank <font color="green"><b>NVIDIA</b></font> for supporting our research with the donation of an NVIDIA Titan Xp GPU through the <font color="green">NVIDIA GPU Grant Program</font>.
 </p>
 <p align="center">
-  <div style="padding-bottom: 10px;">
+  <div style="padding-bottom: 4px;">
     <img src="./assets/img/eu_comm_logo.png" width="32%" style="float: left; right-margin: 3%;">
   </div>
   <div>
