@@ -37,19 +37,11 @@ $$
     \textbf{t} = \textbf{q}_1 \textbf{q}_2^{-1}
   \end{align*}
 $$
-  
-<p align="center">
-  <MATH> <b>t</b> = <b>q<sub>1</sub></b> <b>q<sub>2</sub><sup>-1</sup></b> </MATH>
-</p>
 
-<p style="text-align: justify;">
+
+<p style="text-align: justify;">  
+ Because $$ \textbf{q}_1 $$ and $$ \textbf{q}_2 $$ are unit quaternions: $$ \textbf{q}^{-1} = \conj{\texbf{q}} $$, where $$ \conj{\textbf{q}} $$ is the conjugate quaternion of $$ \textbf{q} $$. 
  
-  
-  
-  
-  <MATH> 
-    Because <b>q<sub>1</sub></b> and <b>q<sub>2</sub></b> are unit quaternions: <b>q<sup>-1</sub></b> = <b>q<sup>*</sup></b>, where <b>q<sup>*</sup></b> is the conjugate quaternion of <b>q</b>. 
-  </MATH>
 </p>
 <p style="text-align: justify;">
   <MATH>
