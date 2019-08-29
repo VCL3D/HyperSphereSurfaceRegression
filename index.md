@@ -26,11 +26,11 @@ qualitatively showing the promising generalization ability of our dataset and mo
 <h1 align="center"> Angular Loss on the Hyper-Sphere </h1>
 
 <p style="text-align: justify;">
-  According to Euler's rotation theorem, a transformation of a fixed point $ \textbf{p}(p_x, p_y, p_z) $ can be expressed as a rotation given by an angle $ \theta $ around a fixed axis $ \textbf{u}(x, y, z) = x\hat{\textbf{i}} + y\hat{\textbf{j}} + z\hat{\textbf{k}} $, that runs through $$ \textbf{p} $$. This kind of rotation can be easily represented by a unit quaternion $$ \textbf{q}(w, x, y, z) $$.
+  According to Euler's rotation theorem, a transformation of a fixed point $ \textbf{p}(p_x, p_y, p_z) $ can be expressed as a rotation given by an angle $ \theta $ around a fixed axis $ \textbf{u}(x, y, z) = x\hat{\textbf{i}} + y\hat{\textbf{j}} + z\hat{\textbf{k}} $, that runs through $ \textbf{p} $. This kind of rotation can be easily represented by a unit quaternion $ \textbf{q}(w, x, y, z) $.
 </p>
 
 <p style="text-align: justify;">
-  Therefore, we can represent two normal vectors $$ \hat{\textbf{n}}_1(n_{1_x},n_{1_y},n_{1_z}) $$ and $$ \hat{\textbf{n}_2}(n_{2_x},n_{2_y},n_{2_z}) $$ as the pure quaternions $$ \textbf{q}_1(0, n_{1_x},n_{1_y},n_{1_z}) $$ and $$ \textbf{q}_2(0, n_{2_x},n_{2_y},n_{2_z}) $$ respectively. Then their angular difference can be expressed by their transition quaternion [ref], which represents a rotation from $$ \textbf{n}_1 $$ to $$ \textbf{n}_2 $$:
+  Therefore, we can represent two normal vectors $ \hat{\textbf{n}}_1(n_{1_x},n_{1_y},n_{1_z}) $ and $ \hat{\textbf{n}_2}(n_{2_x},n_{2_y},n_{2_z}) $ as the pure quaternions $ \textbf{q}_1(0, n_{1_x},n_{1_y},n_{1_z}) $ and $ \textbf{q}_2(0, n_{2_x},n_{2_y},n_{2_z}) $ respectively. Then their angular difference can be expressed by their transition quaternion [ref], which represents a rotation from $ \textbf{n}_1 $ to $ \textbf{n}_2 $:
 </p>
 $$
   \begin{align*}
@@ -40,11 +40,11 @@ $$
 
 
 <p style="text-align: justify;">  
- Because $$ \textbf{q}_1 $$ and $$ \textbf{q}_2 $$ are unit quaternions: $$ \textbf{q}^{-1} = \textbf{q}^* $$, where $$ \textbf{q}^* $$ is the conjugate quaternion of $$ \textbf{q} $$. 
+ Because $ \textbf{q}_1 $ and $ \textbf{q}_2 $ are unit quaternions: $ \textbf{q}^{-1} = \textbf{q}^* $, where $ \textbf{q}^* $ is the conjugate quaternion of $ \textbf{q} $. 
  
 </p>
 <p style="text-align: justify;">
-    In addition, because $$ \textbf{q}_1 $$ and $$ \textbf{q}_2 $$ are pure quaternions: $$ \textbf{q}^{-1} = -\textbf{q} $$, and:
+    In addition, because $ \textbf{q}_1 $ and $ \textbf{q}_2 $ are pure quaternions: $ \textbf{q}^{-1} = -\textbf{q} $, and:
 </p>
 $$
   \begin{align*}
@@ -53,7 +53,7 @@ $$
 $$
   
 <p style="text-align: justify;">
-    Finally, the rotation angle of the transition quaternion (and therefore the angular difference between $$ \textbf{n}_1 $$ and $$ \textbf{n}_2 $$ is calculated by the inverse tangent between the real and the imaginary parts of the transition quaternion, which are reduced to their dot and cross product, due to being unit quaternions:
+    Finally, the rotation angle of the transition quaternion (and therefore the angular difference between $ \textbf{n}_1 $ and $ \textbf{n}_2 $ is calculated by the inverse tangent between the real and the imaginary parts of the transition quaternion, which are reduced to their dot and cross product, due to being unit quaternions:
 </p>
 
 $$
