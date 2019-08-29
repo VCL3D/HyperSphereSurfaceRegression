@@ -148,6 +148,9 @@ $$
     </li>
   </ul>
 </p>
+<p style="text-align: justify;">
+  In order to train and test our model we use <code> settings files </code> in <code>.json</code> format. Template settings files can be found <a href="##">here</a>.
+</p>
 <h2 align="center"> Pre-trained model </h2>
 <p style="text-align: justify;">
   Our <b>PyTorch</b> pre-trained weights (trained for 50 epochs) are released <a href="https://github.com/VCL3D/HyperSphereSurfaceRegression/releases"> here</a>.
