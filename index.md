@@ -3,6 +3,18 @@
   <img src = "./assets/img/360HyperSphereBanner.png" alt="Qualitative Results" width="100%"/>
 </p>
 
+<h1 align="center"> Angular Loss on the Hyper-Sphere </h1>
+
+<p style="text-align: justify;">
+  According to Euler's rotation theorem, a transformation of a fized point <MATH> <b>p</b>(p<sub>x</sub>, p<sub>y</sub>, p<sub>z</sub>) can be expressed as a rotation given by an angle &thetasym; around a fixed axis <b>u</b>(x, y, z) = x<b>i&#x0302</b> + y<b>j&#x0302</b> + z<b>k&#x0302</b>, that runs through <b>p</b>. This kind of rotation can be easily represented by a unit quaternion <b>q</b>(w, x, y, z).</MATH>
+</p>
+<p style="text-align: justify;">
+  Therefore, we can represent two normal vectors <MATH> <b>n&#x0302<sub>1</sub></b>(n<sub>1<sub>x</sub></sub>, n<sub>1<sub>y</sub></sub>, n<sub>1<sub>z</sub></sub>) and <b>n&#x0302<sub>2</sub></b>(n<sub>2<sub>x</sub></sub>, n<sub>2<sub>y</sub></sub>, n<sub>2<sub>z</sub></sub>) as the pure quaternions <b>q<sub>1</sub></b>(0, n<sub>1<sub>x</sub></sub>, n<sub>1<sub>y</sub></sub>, n<sub>1<sub>z</sub></sub>) and <b>q<sub>2</sub></b>(0, n<sub>2<sub>x</sub></sub>, n<sub>2<sub>y</sub></sub>, n<sub>2<sub>z</sub></sub>) respectively. Then their angular difference can be expressed by their transition quaternion [ref], which represents a rotation from <b>n&#x0302<sub>1</sub></b> to <b>n&#x0302<sub>2</sub></b>:</MATH>
+</p>
+<p align="center">
+  <MATH> <b>t</b> = <b>q<sub>1</sub></b> <b>q<sub>2</sub><sup>-1</sup></b> </MATH>
+</p>
+
 <p align="center">
   <table>
     <th> Loss Functions </th>
@@ -85,7 +97,7 @@ qualitatively showing the promising generalization ability of our dataset and mo
 
 <h1 align="center"> Data </h1>
 
-<p align="center" style="test-aligh: justify;">
+<p style="test-aligh: justify;">
   The 360<sup>o</sup> data used to train our model are available <a href="vcl3d.github.io/3D60">here</a> and are part of a larger dataset ... that composed of color images, depth, and surface normal maps for each viewpoint in a trinocular setup.
 </p>
 
