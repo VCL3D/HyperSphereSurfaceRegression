@@ -1,4 +1,6 @@
 
+
+
 <p align="center">
   <img src = "./assets/img/360HyperSphereBanner.png" alt="Qualitative Results" width="100%"/>
 </p>
@@ -34,6 +36,14 @@ qualitatively showing the promising generalization ability of our dataset and mo
 </p>
 
 <p style="text-align: justify;">
+  $$
+    \begin{align*}
+      \phi(x, y)
+    \end{align*}
+  $$
+  
+  
+  
   <MATH> 
     Because <b>q<sub>1</sub></b> and <b>q<sub>2</sub></b> are unit quaternions: <b>q<sup>-1</sub></b> = <b>q<sup>*</sup></b>, where <b>q<sup>*</sup></b> is the conjugate quaternion of <b>q</b>. 
   </MATH>
@@ -187,3 +197,7 @@ qualitatively showing the promising generalization ability of our dataset and mo
 <h1 align="center"> Acknowledgements </h1>
 
 <h1 align="center"> References </h1>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
