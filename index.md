@@ -27,13 +27,6 @@ present the practical applicability of our trained model on a spherical image re
 qualitatively showing the promising generalization ability of our dataset and model.
 </p>
 
-<h1 align="center"> Paper </h1>
-
-<p align="center">
-  <a href="https://arxiv.org/">
-    <img src="./assets/img/paper_thumb_small.png" alt="Paper on Arxiv">
-  </a>
-</p>
 
 <h1 align="center"> Data </h1>
 <p align="center">
@@ -43,6 +36,67 @@ qualitatively showing the promising generalization ability of our dataset and mo
 <p align="center">
   Coming Soon...
 </p>
+
+
+<h1 align="center"> Paper </h1>
+
+<p align="center">
+  <a href="https://arxiv.org/">
+    <div>
+      <img src="./assets/img/paper_thumbs/1.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/2.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/3.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/4.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/5.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/6.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/7.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/8.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/9.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/10.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/11.png" width=20%>
+    </div>
+  </a>
+</p>
+
+<h2 align="center"> Supplementary </h2>
+
+<p align="center">
+  <a href="https://arxiv.org/">
+    <div>
+      <img src="./assets/img/paper_thumbs/sup1.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/sup2.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/sup3.png" width=20%>
+    </div>
+    <div>
+      <img src="./assets/img/paper_thumbs/sup4.png" width=20%>
+    </div>
+  </a>
+</p>
+
 <h1 align="center"> Citation </h1>
 <p style="
     width: auto;
