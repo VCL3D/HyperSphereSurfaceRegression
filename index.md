@@ -144,7 +144,7 @@ $$
       <code>test.py</code> for testing a trained model.
     </li>
     <li>
-      <code>infer.py</code>
+      <code>infer.py</code> for infering a pre-trained model's prediction on a single image.
     </li>
   </ul>
 </p>
@@ -201,7 +201,7 @@ $$
   <div style="padding-bottom: 1px;">
     <img src="./assets/img/eu_comm_logo.png" width="32%" style="float: left; right-margin: 3%;">
   </div>
-  <div>
+  <div style="padding-top": 1px;>
     <img src="./assets/img/Logo-Hyper360_2017.10.03_DEF.png" width="20%" style="float: left; right-margin: 3%;">
   </div>
   <div>
