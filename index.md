@@ -132,6 +132,9 @@ $$
 </p>
 
 <h1 align="center"> Code </h1>
+<p style="text-align: justify;">
+  Our training and testing code that can be used to reproduce our experiments can be found at the corresponding <a href="https://github.com/VCL3D/HyperSphereSurfaceRegression">Github repository</a>.
+</p>
 
 <h2 align="center"> Pre-trained model </h2>
 <p align="center">
