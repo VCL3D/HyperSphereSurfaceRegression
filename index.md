@@ -26,7 +26,7 @@ qualitatively showing the promising generalization ability of our dataset and mo
 <h1 align="center"> Angular Loss on the Hyper-Sphere </h1>
 
 <p style="text-align: justify;">
-  According to Euler's rotation theorem, a transformation of a fixed point $$ \textbf{p}(p_x, p_y, p_z) $$ can be expressed as a rotation given by an angle $$ \theta $$ around a fixed axis $$ \textbf{u}(x, y, z) = x\hat{\textbf{i}} + y\hat{\textbf{j}} + z\hat{\textbf{k}} $$, that runs through $$ \textbf{p} $$. This kind of rotation can be easily represented by a unit quaternion $$ \textbf{q}(w, x, y, z) $$.
+  According to Euler's rotation theorem, a transformation of a fixed point $ \textbf{p}(p_x, p_y, p_z) $ can be expressed as a rotation given by an angle $ \theta $ around a fixed axis $ \textbf{u}(x, y, z) = x\hat{\textbf{i}} + y\hat{\textbf{j}} + z\hat{\textbf{k}} $, that runs through $ \textbf{p} $. This kind of rotation can be easily represented by a unit quaternion $ \textbf{q}(w, x, y, z) $.
 </p>
 
 <p style="text-align: justify;">
