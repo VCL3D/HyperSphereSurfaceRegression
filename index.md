@@ -26,11 +26,18 @@ qualitatively showing the promising generalization ability of our dataset and mo
 <h1 align="center"> Angular Loss on the Hyper-Sphere </h1>
 
 <p style="text-align: justify;">
-  According to Euler's rotation theorem, a transformation of a fixed point \$$ \textbf{p}(p_x, p_y, p_z) $$ can be expressed as a rotation given by an angle \$$ \theta $$; around a fixed axis \$$ \textbf{u}(x, y, z) = x\hat{\textbf{i}} + y\hat{\textbf{j}} + z\hat{\textbf{k}} $$, that runs through \$$ \textbf{p} $$. This kind of rotation can be easily represented by a unit quaternion \$$ \textbf{q}(w, x, y, z) $$.
+  According to Euler's rotation theorem, a transformation of a fixed point $$ \textbf{p}(p_x, p_y, p_z) $$ can be expressed as a rotation given by an angle $$ \theta $$; around a fixed axis $$ \textbf{u}(x, y, z) = x\hat{\textbf{i}} + y\hat{\textbf{j}} + z\hat{\textbf{k}} $$, that runs through $$ \textbf{p} $$. This kind of rotation can be easily represented by a unit quaternion $$ \textbf{q}(w, x, y, z) $$.
 </p>
+
 <p style="text-align: justify;">
-  Therefore, we can represent two normal vectors \$$ \hat{\textbf{n}}_1(n_{1_x},n_{1_y},n_{1_z}) $$ and \$$ \hat{\textbf{n}_2}(n_{2_x},n_{2_y},n_{2_z}) $$ as the pure quaternions \$$ \textbf{q}_1(0, n_{1_x},n_{1_y},n_{1_z}) $$ and \$$ \textbf{q}_2(0, n_{2_x},n_{2_y},n_{2_z}) $$ respectively. Then their angular difference can be expressed by their transition quaternion [ref], which represents a rotation from <b>n&#x0302<sub>1</sub></b> to <b>n&#x0302<sub>2</sub></b>:</MATH>
+  Therefore, we can represent two normal vectors $$ \hat{\textbf{n}}_1(n_{1_x},n_{1_y},n_{1_z}) $$ and $$ \hat{\textbf{n}_2}(n_{2_x},n_{2_y},n_{2_z}) $$ as the pure quaternions $$ \textbf{q}_1(0, n_{1_x},n_{1_y},n_{1_z}) $$ and $$ \textbf{q}_2(0, n_{2_x},n_{2_y},n_{2_z}) $$ respectively. Then their angular difference can be expressed by their transition quaternion [ref], which represents a rotation from $$ \textbf{n}_1 $$ to $$ \textbf{n}_2 $$:
 </p>
+$$
+  \begin{align*}
+    \textbf{t} = \textbf{q}_1 \textbf{q}_2^{-1}
+  \end{align*}
+$$
+  
 <p align="center">
   <MATH> <b>t</b> = <b>q<sub>1</sub></b> <b>q<sub>2</sub><sup>-1</sup></b> </MATH>
 </p>
