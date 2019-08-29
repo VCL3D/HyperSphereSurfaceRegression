@@ -140,10 +140,10 @@ $$
 <p style="text-align: justify;">
   <ul>
     <li>
-      <code>train.py</code> for model training .
+      <a href="https://github.com/VCL3D/HyperSphereSurfaceRegression/blob/master/train.py"><code>train.py</code></a> for model training .
     </li>
     <li>
-      <code>test.py</code> for testing a trained model.
+      <a href="https://github.com/VCL3D/HyperSphereSurfaceRegression/blob/master/test.py"><code>test.py</code></a> for testing a trained model.
     </li>
     <li>
       <code>infer.py</code> for infering a pre-trained model's prediction on a single image.
@@ -151,7 +151,7 @@ $$
   </ul>
 </p>
 <p style="text-align: justify;">
-  In order to train and test our model we use <code>settings files</code> in <code>.json</code> format. Template settings files for training and testing can be found <a href="##">here</a>.
+  In order to train and test our model we use <code>settings files</code> in <code>.json</code> format. Template settings files for training and testing can be found <a href="https://github.com/VCL3D/HyperSphereSurfaceRegression/tree/master/settings_files">here</a>.
 </p>
 <h2 align="center"> Pre-trained model </h2>
 <p style="text-align: justify;">
