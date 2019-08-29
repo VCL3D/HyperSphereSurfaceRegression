@@ -1,0 +1,29 @@
+{
+    "session": {
+        "optimizer": {
+            "optim": "adam",
+            "lr": 0.0002,
+            "weight_decay": 0.0,
+            "momentum": 0.9,
+            "momentum2": 0.999,
+            "epsilon": 1e-8
+        },
+        "pretrained": true,
+        "epochs": 50,
+        "train_batch_size": 4,
+        "eval_batch_size": 2,
+        "input_shape": [256, 512],
+        "train_filenames_filepath": "absolute\\path\\to\\train_filenames_file.txt",
+        "validation_filenames_filepath": "absolute\\path\\to\\validation_filenames_file.txt",
+        "seed": 1337,
+        "loss": {
+            "alpha": 0.025
+        },
+        "gpu": [0],
+        "chkp_path": "absolute\\path\\to\\directory\\to\\save\\checkpoint_files.chkp",
+        "display_iterations": 1,
+        "chkp_iterations": 10,
+        "evaluation_iterations": 5,
+        "session_name": "desired_session_name"
+    }
+}

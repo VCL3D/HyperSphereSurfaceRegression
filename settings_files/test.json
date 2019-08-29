@@ -1,0 +1,10 @@
+{
+    "session": {
+        "test_batch_size": 2,
+        "input_shape": [256, 512],
+        "test_filenames_filepath": "D:\\_dev\\_Projects\\360NormalsEstimation\\dataset_filenames\\360UD_test_.txt",
+        "gpu": [0],
+        "chkp_path": "D:\\_dev\\_Projects\\360NormalsEstimation\\experiments\\vgg16_unet_quaternion_smoothness\\chkp\\vgg16_unet_quaternion_smoothness_model_e50_b390000.chkp",
+        "session_name": "test_testing"
+    }
+}
