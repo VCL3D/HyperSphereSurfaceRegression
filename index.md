@@ -98,7 +98,7 @@ qualitatively showing the promising generalization ability of our dataset and mo
       <td>90.48</td>
     </tr>
     <tr>
-      <td>Quaternion</td>
+      <td>Hyper-Sphere</td>
       <td>7.24</td>
       <td>6.72</td>
       <td>7.98</td>
@@ -108,7 +108,7 @@ qualitatively showing the promising generalization ability of our dataset and mo
       <td>90.37</td>
     </tr>
     <tr>
-      <td>Quaternion + Smoothness</td>
+      <td>Hyper-Sphere + Smoothness</td>
       <td>7.14</td>
       <td>6.66</td>
       <td>7.88</td>
