@@ -155,7 +155,7 @@ $$
 </p>
 <h2 align="center"> Pre-trained model </h2>
 <p style="text-align: justify;">
-  Our <b>PyTorch</b> pre-trained weights (trained for 50 epochs) are released <a href="https://github.com/VCL3D/HyperSphereSurfaceRegression/releases"> here</a>.
+  Our <b>PyTorch</b> pre-trained weights (trained for 50 epochs) are released <a href="https://github.com/VCL3D/HyperSphereSurfaceRegression/releases/tag/1.0"> here</a>.
 </p>
 
 
