@@ -58,8 +58,8 @@ $$
 
 $$
   \begin{align*}
-    tan(\theta) &= \frac{\vert\vert\textbf{q}_1 \times \textbf{q}_2\vert\vert}{\textbf{q}_1 \cdot \textbf{q}_2} \\
-    \theta &= atan(\frac{\vert\vert\textbf{q}_1 \times \textbf{q}_2\vert\vert}{\textbf{q}_1 \cdot \textbf{q}_2})
+    tan(\theta) = \frac{\vert\vert\textbf{q}_1 \times \textbf{q}_2\vert\vert}{\textbf{q}_1 \cdot \textbf{q}_2} \\
+    \theta = atan(\frac{\vert\vert\textbf{q}_1 \times \textbf{q}_2\vert\vert}{\textbf{q}_1 \cdot \textbf{q}_2})
   \end{align*}
 $$
 
