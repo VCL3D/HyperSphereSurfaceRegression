@@ -40,7 +40,7 @@ $$
 
 
 <p style="text-align: justify;">  
- Because $$ \textbf{q}_1 $$ and $$ \textbf{q}_2 $$ are unit quaternions: $$ \textbf{q}^{-1} = \texbf{q}^* $$, where $$ \textbf{q}^* $$ is the conjugate quaternion of $$ \textbf{q} $$. 
+ Because $$ \textbf{q}_1 $$ and $$ \textbf{q}_2 $$ are unit quaternions: $$ \textbf{q}^{-1} = \textbf{q}^* $$, where $$ \textbf{q}^* $$ is the conjugate quaternion of $$ \textbf{q} $$. 
  
 </p>
 <p style="text-align: justify;">
@@ -53,21 +53,15 @@ $$
 $$
   
 <p style="text-align: justify;">
-  <MATH>
-    Finally, the rotation angle of the transition quaternion (and therefore the angular difference between <b>n&#x0302<sub>1</sub></b> and <b>n&#x0302<sub>2</sub></b>) is calculated by the inverse tangent between the real and the imaginary parts of the transition quaternion, which are reduced to their dot and cross product, due to being unit quaternions:
-  </MATH>
-</p>
-<p align="center" style="text-align: justify;">
-  <MATH>
-    tan(&thetasym;) = &#8741 <b>q<sub>1</sub></b> x <b>q<sub>2</sub></b> &#8741  &frasl; (<b>q<sub>1</sub></b> &sdot; <b>q<sub>2</sub></b>)  &rArr;
-  </MATH>
+    Finally, the rotation angle of the transition quaternion (and therefore the angular difference between $$ \textbf{n}_1 $$ and $$ \textbf{n}_2 $$ is calculated by the inverse tangent between the real and the imaginary parts of the transition quaternion, which are reduced to their dot and cross product, due to being unit quaternions:
 </p>
 
-<p align="center" style="text-align: justify;">
-  <MATH>
-    &thetasym; = atan(&#8741 <b>q<sub>1</sub></b> x <b>q<sub>2</sub></b> &#8741  &frasl; (<b>q<sub>1</sub></b> &sdot; <b>q<sub>2</sub></b>));
-  </MATH>
-</p>
+$$
+  \begin{align*}
+    tan(\theta) &= \frac{\vert\vert\textbf{q}_1 \times \textbf{q}_2\vert\vert}{\textbf{q}_1 \cdot \textbf{q}_2} \\
+    \theta &= atan(\frac{\vert\vert\textbf{q}_1 \times \textbf{q}_2\vert\vert}{\textbf{q}_1 \cdot \textbf{q}_2})
+  \end{align*}
+$$
 
 <h2 align="center"> Quantitative Results using different Loss functions </h2>
 
