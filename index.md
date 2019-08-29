@@ -38,11 +38,12 @@ qualitatively showing the promising generalization ability of our dataset and mo
 </p>
 
 
-<h1 align="center"> Paper </h1>
+<h1 align="center"> Publication </h1>
+<h2 align="center"> Paper </h2>
 
 <p align="center">
   <a href="https://arxiv.org/">
-    <img src="./assets/img/paper.png" width="50%">
+    <img src="./assets/img/paper.png" width="100%">
   </a>
 </p>
 
@@ -50,7 +51,7 @@ qualitatively showing the promising generalization ability of our dataset and mo
 
 <p align="center">
   <a href="https://arxiv.org/">
-    <img src="./assets/img/sup.png" width="50%">
+    <img src="./assets/img/sup.png" width="100%">
   </a>
 </p>
 
