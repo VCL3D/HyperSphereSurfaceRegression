@@ -76,16 +76,17 @@ def test(settings):
 
     logger.log("Testing...")
     total_loss = torch.tensor(0.0).to(device)
-    for b_idx, test_sample in enumerate(test_loader):
-        active_loss = torch.tensor(0.0).to(device)
+    with torch.no_grad():
+        for b_idx, test_sample in enumerate(test_loader):
+            active_loss = torch.tensor(0.0).to(device)
 
-        rgb = test_sample['input_rgb'].to(device)
-        target = test_sample['target_surface'].to(device)
-        mask = test_sample['mask'].to(device)
+            rgb = test_sample['input_rgb'].to(device)
+            target = test_sample['target_surface'].to(device)
+            mask = test_sample['mask'].to(device)
 
-        pred = model(rgb)
-        pred = F.normalize(pred, p = 2, dim = 1)
-        logger.log("Tested: {}".format(test_sample['filename']))
+            pred = model(rgb)
+            pred = F.normalize(pred, p = 2, dim = 1)
+            logger.log("Tested: {}".format(test_sample['filename']))
     logger.log("Testing finished.")
 
 if __name__ == "__main__":

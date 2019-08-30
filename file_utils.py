@@ -1,6 +1,8 @@
 import os
 import json
 import torch
+import numpy as np
+import cv2
 
 '''
     Reads configuration file
@@ -31,3 +33,17 @@ def save_state(directory, session_name, model, optimizer, epoch, global_iters):
     torch.save(model_state_dict, model_filepath)
     torch.save(optim_state_dict, optim_filepath)
     
+def save_tensor_as_float(directory, filename, tensor, png = False):
+    if not os.path.exists(directory):
+        print("Given directory does not exist. Creating...")
+        os.mkdir(directory)
+    tensor = tensor.detach().cpu()
+    array = tensor.squeeze(0).numpy()
+    array = array.transpose(1, 2, 0)
+    filepath_exr = os.path.join(directory, filename + ".exr")
+    cv2.imwrite(filepath_exr, array)
+    if (png):
+        norm_array = (array - np.min(array)) / (np.max(array) - np.min(array)) * 255
+        norm_array = norm_array.astype(np.uint8)
+        filepath_png = os.path.join(directory, filename.replace("exr", "png"))
+        cv2.imwrite(filepath_png, norm_array)

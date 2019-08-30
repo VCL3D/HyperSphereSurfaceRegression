@@ -54,8 +54,10 @@ def get_optimizer(optim_type, model_params, optim_params):
 #     return optimizer
 
 def configure_device(gpus):
-    if (torch.cuda.is_available() and len(gpus) > 0 and gpus[0] >= 0):
+    if (gpus is not None and torch.cuda.is_available() and len(gpus) > 0 and gpus[0] >= 0):
         device = torch.device('cuda:{}'.format(gpus[0]))
+    elif (gpus is None and torch.cuda.is_available()):
+        device = torch.device('cuda:0')
     else:
         device = torch.device('cpu')
     print("Selected Device: {}".format(device))
