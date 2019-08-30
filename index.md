@@ -44,7 +44,7 @@ $$
  
 </p>
 <p style="text-align: justify;">
-    In addition, because $ \textbf{q}_1 $ and $ \textbf{q}_2 $ are pure quaternions: $ \textbf{q}^{-1} = -\textbf{q} $, and:
+    In addition, because $ \textbf{q}_1 $ and $ \textbf{q}_2 $ are pure quaternions: $ \textbf{q}^{*} = -\textbf{q} $, and:
 </p>
 $$
   \begin{align*}
