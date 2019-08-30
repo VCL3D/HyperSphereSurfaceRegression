@@ -146,7 +146,7 @@ $$
       <a href="https://github.com/VCL3D/HyperSphereSurfaceRegression/blob/master/test.py"><code>test.py</code></a> for testing a trained model.
     </li>
     <li>
-      <code>infer.py</code> for infering a pre-trained model's prediction on a single image.
+      <a href="https://github.com/VCL3D/HyperSphereSurfaceRegression/blob/master/infer.py"><code>infer.py</code></a> for infering a pre-trained model's prediction on a single image.
     </li>
   </ul>
 </p>
