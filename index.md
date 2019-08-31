@@ -32,6 +32,7 @@ qualitatively showing the promising generalization ability of our dataset and mo
 <p style="text-align: justify;">
   Therefore, we can represent two normal vectors $ \hat{\textbf{n}}_1(n_{1_x},n_{1_y},n_{1_z}) $ and $ \hat{\textbf{n}_2}(n_{2_x},n_{2_y},n_{2_z}) $ as the pure quaternions $ \textbf{q}_1(0, n_{1_x},n_{1_y},n_{1_z}) $ and $ \textbf{q}_2(0, n_{2_x},n_{2_y},n_{2_z}) $ respectively. Then their angular difference can be expressed by their transition quaternion [ref], which represents a rotation from $ \textbf{n}_1 $ to $ \textbf{n}_2 $:
 </p>
+
 $$
   \begin{align*}
     \textbf{t} = \textbf{q}_1 \textbf{q}_2^{-1}
@@ -46,6 +47,7 @@ $$
 <p style="text-align: justify;">
     In addition, because $ \textbf{q}_1 $ and $ \textbf{q}_2 $ are pure quaternions: $ \textbf{q}^{*} = -\textbf{q} $, and:
 </p>
+
 $$
   \begin{align*}
     \textbf{q}_1 \textbf{q}_2 = \textbf{q}_1 \cdot \textbf{q}_2 - \textbf{q}_1 \times \textbf{q}_2
