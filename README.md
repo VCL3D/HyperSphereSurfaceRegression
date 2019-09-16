@@ -1,3 +1,2 @@
-# HyperSphereSurfaceRegression
+# 360 Surface Regression with a Hyper-Sphere Loss
 
-Coming soon...
