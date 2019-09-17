@@ -26,8 +26,18 @@
 
           {% if site.show_downloads %}
             <section id="downloads">
+              <!--
               <a class="zip_download_link" href="{{ site.github.models_url }}">Download models</a>
               <a class="tar_download_link" href="{{ site.github.data_url }}">Download dataset</a>
+              -->
+              <a href="{{ site.github.data_url }}" class="button">
+              <small>Download</small>
+              Data
+            </a>
+            <a href="{{ site.github.models_url }}" class="button">
+              <small>Download</small>
+              Models
+            </a>
             </section>
           {% endif %}
         </header>
