@@ -55,7 +55,7 @@ $$
 $$
   
 <p style="text-align: justify;">
-    Finally, the rotation angle of the transition quaternion (and therefore the angular difference between $ \textbf{n}_1 $ and $ \textbf{n}_2 $ is calculated by the inverse tangent between the real and the imaginary parts of the transition quaternion, which are reduced to their dot and cross product, due to being unit quaternions:
+    Finally, the rotation angle of the transition quaternion (and therefore the angular difference between $ \textbf{n}_1 $ and $ \textbf{n}_2 $ is calculated by the inverse tangent between the real and the imaginary parts of the transition quaternion, which are reduced to their dot and cross product, due to being unit, pure quaternions:
 </p>
 
 $$
@@ -165,7 +165,7 @@ $$
 <h2 align="center"> Paper </h2>
 
 <p align="center">
-  <a href="https://arxiv.org/">
+  <a href="https://arxiv.org/pdf/1909.07043.pdf">
     <img src="./assets/img/paper.png" width="100%">
   </a>
 </p>
@@ -173,7 +173,7 @@ $$
 <h2 align="center"> Supplementary </h2>
 
 <p align="center">
-  <a href="https://arxiv.org/">
+  <a href="https://arxiv.org/pdf/1909.07043.pdf">
     <img src="./assets/img/sup.png" width="100%">
   </a>
 </p>
@@ -196,7 +196,7 @@ $$
 
 <h1 align="center"> Acknowledgements </h1>
 <p style="text-align: justify;">
-  We thank the anonymous reviewers for their helpuful comments.
+  We thank the anonymous reviewers for their helpful comments.
 </p>
 <p style="text-align: justify;">
   The project has received funding from the European Union's <font color="blue"><b> Horizon 2020 </b></font> research and innovation programme <font color="blue"><b>Hyper360</b></font> under grant agreement <font color="blue">No. 761934</font>.
