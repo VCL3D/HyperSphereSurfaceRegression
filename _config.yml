@@ -6,7 +6,7 @@ markdown: kramdown
 
 
 github:
-  zip_url: http://example.com/download.zip
-  tar_url: http://test.com/download.tar
+  models_url: http://example.com/download.zip
+  data_url: https://vcl3d.github.io/3D60/
   owner_url: https://ankarako.github.io
   owner_name: Antonis Karakottas
