@@ -130,7 +130,7 @@ $$
 <h1 align="center"> Data </h1>
 
 <p style="test-align: justify;">
-  The 360<sup>o</sup> data used to train our model are available <a href="vcl3d.github.io/3D60">here</a> and are part of a larger dataset [<a href="#refOmnidepth">1</a>,2], which is composed of color images, depth, and surface normal maps for each viewpoint in a trinocular setup.
+  The 360<sup>o</sup> data used to train our model are available <a href="https://vcl3d.github.io/3D60/">here</a> and are part of a larger dataset [<a href="#refOmnidepth">1</a>,2], which is composed of color images, depth, and surface normal maps for each viewpoint in a trinocular setup.
 </p>
 
 
